@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ticket-demo": {
+      "command": "<ABSOLUTE_PATH_TO_OP_EXECUTABLE>",
+      "args": ["run", "--", "<ABSOLUTE_PATH_TO_VENV_PYTHON>", "<ABSOLUTE_PATH_TO_TICKET_MCP_PY>"],
+      "env": {
+        "TICKET_API_TOKEN": "op://YOUR-DEMO-VAULT/YOUR-ITEM/YOUR-FIELD",
+        "TICKET_API_URL": "http://127.0.0.1:8765"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.venv/
+.venv-mcp/
+.cursor/
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+*.local.*
+presentation/.build/
+presentation/demo-guide.txt
+deliverables/
+verification/
